@@ -23,13 +23,13 @@ Install OpenSSH server
 
 
 * #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
-![02](assets/1.png)
+![01](assets/1.png)
 
-* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
-![02](assets/1.png)
+* #### Lalu klik Next.
+![02](assets/2.png)
 
-* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
-![02](assets/1.png)
+* #### Centang I accept the terms..., lalu Next.
+![03](assets/3.png)
 
-* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
-![02](assets/1.png)
+* #### Pilih yang bawah Add VMware Workstation..., lalu Next.
+![04](assets/4.png)
