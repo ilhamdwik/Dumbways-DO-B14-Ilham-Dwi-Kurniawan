@@ -35,7 +35,19 @@ Install OpenSSH server
 ![04](assets/4.png)
 
 * #### Centang keduanya seperti gambar dibawah ini, lalu Next.
-![04](assets/5.png)
+![05](assets/5.png)
 
 * #### Semisal setelah install ingin memunculkan icon dari VMware bisa centang Desktop, lalu Next
-![04](assets/6.png)
+![06](assets/6.png)
+
+* #### Klik Install.
+![07](assets/7.png)
+
+* #### Proses Installing VMware sedang berjalan.
+![08](assets/8.png)
+
+* #### Semisal mempunyai License, bisa klik License, kalau tidak bisa langsung klik Finish.
+![09](assets/9.png)
+
+* #### Ini tampilan semisal anda ingin memasukkan license key.
+![10](assets/10.png)
