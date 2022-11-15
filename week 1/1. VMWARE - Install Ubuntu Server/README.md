@@ -87,4 +87,29 @@ Install OpenSSH server
 
 * #### Proses Installasi.
 ![22](assets/36.png)
+
 ![23](assets/37.png)
+
+* #### Pilih language English. Lalu tekan Enter.
+![24](assets/38.png)
+
+* #### Pilih Continue without updating.
+![25](assets/43.png)
+
+* #### Pilih English.
+![26](assets/44.png)
+
+* #### Pilih ens33. Lalu tekan Enter.
+![27](assets/45.png)
+
+* #### Pilih edit IPv4. Tekan Enter.
+![28](assets/46.png)
+
+* #### IPv4 method,pilih yang manual.
+![29](assets/47.png)
+
+* #### Masukkan Subtet, IP Address, dll (Sesuai IP dari laptop kita masing-masing). Lalu tekan save.
+![30](assets/48.png)
+
+* #### Masukkan Subtet, IP Address, dll (Sesuai IP dari laptop kita masing-masing). Lalu tekan save.
+![31](assets/48.png)
