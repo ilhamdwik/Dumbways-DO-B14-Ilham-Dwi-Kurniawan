@@ -21,5 +21,5 @@ Di mana kedua kata tersebut bermakna menggabungkan proses development (pengemba
 setup IP Static
 Install OpenSSH server
 
-* #### Isi Nama File dan Pilih Ubuntu 64 Bit
+* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
 ![02](assets/1.png)
