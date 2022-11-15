@@ -20,3 +20,6 @@ Di mana kedua kata tersebut bermakna menggabungkan proses development (pengemba
 1 CPU, 2GB RAM & 20GB Storage ( 2GB digunakan utk swap )
 setup IP Static
 Install OpenSSH server
+
+* #### Isi Nama File dan Pilih Ubuntu 64 Bit
+![02](assets/1.png)
