@@ -1,12 +1,12 @@
 # Task : Introduction to DevOps
 
-### 1.Definisi DevOps
+### 1. Definisi DevOps
 
 DevOps merupakan singkatan dari dua kata yaitu Development dan Operation.
 
 Di mana kedua kata tersebut bermakna menggabungkan proses development (pengembangan) dari sebuah sistem/aplikasi dengan operation (operasional). DevOps adalah sebuah prinsip developer untuk mengkoordinasikan antar tim yaitu tim development dengan tim operations dengan efektif dan efisien.
 
-### 2.sebutkan 2 lifecycle DevOps & jelaskan definisinya
+### 2. Sebutkan 2 lifecycle DevOps & jelaskan definisinya
 
 - Plan (tahap perencanaan) : pada tahap ini sebelum memulai membangun sebuah aplikasi kita harus melakukan perencanaan terlebih dahulu. Dikarenakan segala sesuatu yang dimulai tanpa adanya perencanaan terlebih dahulu bisa terjadi ketidak sesuain dalam membangun sebuah aplikasi. Contohnya bila tidak ada perencanaan : waktu pembangunan sebuah aplikasi tidak tepat waktu, biaya (cost) yang dikeluarkan untuk pembangunan aplikasi bisa membengkak, ketidaksesuaian aplikasi yang setelah dibuat oleh tim developer.
 
