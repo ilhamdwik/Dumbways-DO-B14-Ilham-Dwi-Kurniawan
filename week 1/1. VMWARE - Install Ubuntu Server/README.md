@@ -87,3 +87,4 @@ Install OpenSSH server
 
 * #### Proses Installasi.
 ![22](assets/36.png)
+![23](assets/37.png)
