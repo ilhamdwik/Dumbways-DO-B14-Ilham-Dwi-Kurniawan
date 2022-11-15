@@ -21,5 +21,15 @@ Di mana kedua kata tersebut bermakna menggabungkan proses development (pengemba
 setup IP Static
 Install OpenSSH server
 
+
+* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
+![02](assets/1.png)
+
+* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
+![02](assets/1.png)
+
+* #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
+![02](assets/1.png)
+
 * #### Kunjungi situs vmware.com seperti gambar dibawah ini. Lalu pilih download for windows atau linux sesuai dengan OS yang digunakan.
 ![02](assets/1.png)
