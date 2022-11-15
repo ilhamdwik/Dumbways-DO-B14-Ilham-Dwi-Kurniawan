@@ -109,5 +109,66 @@ Install OpenSSH server
 ![29](assets/47.png)
 
 * #### Masukkan Subtet, IP Address, dll (Sesuai IP dari laptop kita masing-masing). Lalu tekan save.
+![30](assets/48.png)
 
+* #### Lalu tekan Done.
+![31](assets/50.png)
 
+* #### Untuk proxy server kosongi saja.
+![32](assets/51.png)
+
+* #### Pada tahap ini tidak perlu ada yang diubah.
+![33](assets/52.png)
+
+* #### Pilih custom storage layout.
+![34](assets/53.png)
+
+* #### Setelah itu pilih free space, pilih Add GPT Partition.
+![35](assets/54.png)
+
+* #### Isikan 2G, lalu pilih Format Swap. Lalu tekan Create.
+![36](assets/55.png)
+
+* #### Isikan size max yang tertera, untuk Format pilih ext 4, Lalu tekan Create.
+![37](assets/56.png)
+
+* #### Pastikan partition sudah terbuat, dengan mengecek MOUNT POINT beserta sizenya.
+![38](assets/57.png)
+
+* #### Klik Done.
+![39](assets/58.png)
+
+* #### Klik Continue untuk melanjutkan.
+![40](assets/59.png)
+
+* #### Isikan nama, server name, dll.
+![41](assets/60.png)
+
+* #### Klik Done.
+![42](assets/61.png)
+
+* #### Centang Install OpenSSH server.
+![43](assets/62.png)
+
+* #### Klik Done.
+![44](assets/63.png)
+
+* #### Optional pada tahap ini, semisal kalian ingin menginstal aplikasi yang tersedia bisa centang aplikasi yang ingin di install.
+![45](assets/64.png)
+
+* #### Klik Done.
+![46](assets/65.png)
+
+* #### Proses Installing kernel.
+![47](assets/66.png)
+
+![48](assets/67.png)
+
+* #### Pilih Reboot Now.
+![49](assets/68.png)
+
+* #### Proses Reboot.
+![50](assets/69.png)
+
+* #### Login menggunakan username dan password.
+![51](assets/70.png)
