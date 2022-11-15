@@ -33,3 +33,9 @@ Install OpenSSH server
 
 * #### Pilih yang bawah Add VMware Workstation..., lalu Next.
 ![04](assets/4.png)
+
+* #### Centang keduanya seperti gambar dibawah ini, lalu Next.
+![04](assets/5.png)
+
+* #### Semisal setelah install ingin memunculkan icon dari VMware bisa centang Desktop, lalu Next
+![04](assets/6.png)
