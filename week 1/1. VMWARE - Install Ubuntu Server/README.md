@@ -51,3 +51,39 @@ Install OpenSSH server
 
 * #### Ini tampilan semisal anda ingin memasukkan license key.
 ![10](assets/10.png)
+
+* #### Buka Home di windows lalu ketik VMware Workstation Player, jika muncul berarti proses installasi berjalan dengan baik.
+![11](assets/11.png)
+
+* #### Tampilan setelah dibuka VMware Workstation Player. Pilih Create a New Virtual Machine.
+![12](assets/12.png)
+
+* #### Pilih Browse untuk memilih file iso yang akan digunakan. Lalu Next.
+![13](assets/28.png)
+
+* #### Masukkan Fullname, username, dll. Lalu Next.
+![14](assets/29.png)
+
+* #### Klik Next.
+![15](assets/30.png)
+
+* #### Maximum disk size isi 20.0. Lalu pilih Split virtual disk intomultiple files. Lalu Next.
+![16](assets/31.png)
+
+* #### Pilih Customize Hardware.
+![17](assets/21.png)
+
+* #### Memory isikan 2GB.
+![18](assets/32.png)
+
+* #### Processors isikan 1 (Optional) diatas 1 juga gpp sesuai kebutuhan masing-masing.
+![19](assets/33.png)
+
+* #### Network Adapter ubah menjadi bridged.
+![20](assets/34.png)
+
+* #### Klik Finish.
+![21](assets/35.png)
+
+* #### Proses Installasi.
+![22](assets/36.png)
