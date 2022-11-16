@@ -8,12 +8,21 @@ Di mana kedua kata tersebut bermakna menggabungkan proses development (pengemba
 
 ### 2. Sebutkan 2 lifecycle DevOps & jelaskan definisinya
 
-- Plan (tahap perencanaan) : pada tahap ini sebelum memulai membangun sebuah aplikasi kita harus melakukan perencanaan terlebih dahulu. Dikarenakan segala sesuatu yang dimulai tanpa adanya perencanaan terlebih dahulu bisa terjadi ketidak sesuain dalam membangun sebuah aplikasi. Contohnya bila tidak ada perencanaan : waktu pembangunan sebuah aplikasi tidak tepat waktu, biaya (cost) yang dikeluarkan untuk pembangunan aplikasi bisa membengkak, ketidaksesuaian aplikasi yang setelah dibuat oleh tim developer.
+- Plan (tahap perencanaan) : pada tahap ini sebelum memulai membangun sebuah aplikasi kita harus melakukan perencanaan terlebih dahulu. Dikarenakan segala sesuatu yang dimulai tanpa adanya perencanaan terlebih dahulu bisa terjadi ketidaksesuain dalam membangun sebuah aplikasi. Contohnya bila tidak ada perencanaan : waktu pembangunan sebuah aplikasi tidak tepat waktu, biaya (cost) yang dikeluarkan untuk pembangunan aplikasi bisa membengkak, dll.
 
 - Code  : pada tahap ini development team akan bekerja untuk membangun sebuah aplikasi yang sudah direncanakan sebelumnya. Pada tahap ini perlu adanya kerjasama yang baik antara tim development dengan tim operation agar nantinya aplikasi yang sudah dibuat bisa berjalan dengan baik.
 
+- Build : Aplikasi yang sudah siap untuk masuk ke tahap pengujian, akan langsung di build supaya dapat mengetahui apakah kode tersebut masih terdapat error atau sudah layak masuk ke divisi tester.
+
+- Test : Merupakan tahap pengujian fungsional aplikasi secara internal. Jika pada proses tersebut terdapat masalah fungsionalitas, maka akan dilaporkan ke tim developer untuk dicek dan diperbaiki.
+
+- Release : Setiap perubahan kode yang telah melewati serangkaian pengujian dan dinyatakan lolos, maka developers akan membuat sebuah release versi dari produk tersebut.
+
 - Deploy : pada tahap ini tim operation akan bekerja untuk mendeploy aplikasi yang sudah dibangun oleh tim development. Proses deployment juga butuh waktu untuk proses installasi dibagian server dan perlunya perhitungan spek yang dibutuhkan pada bagian server agar aplikasi tidak terbebani setelah di deploy.
 
+- Operate : Aplikasi yang sudah selesai dijalankan pada server, maka dapat digunakan secara publik. Dan memastikan bahwa tidak ada masalah ketika di akses baik dari HP ataupun komputer.
+
+- Monitor : Tim Operations akan melakukan pemantauan infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
 
 ### 3. Installasi Ubuntu Server
 

@@ -18,16 +18,16 @@
 ### 3. Deploy aplikasi web server apache menggunakan apt package
 
 * #### Pertama install apache web server menggunakan command "sudo apt install apache2".
-![01](assets/Screenshot (151).png)
+![01](assets/1.png)
 
 * #### Untuk melihat file konfigurasi dari apache web server masuk ke direktori /etc/apache2/sites-available, Lalu buka menggunakan nano 000-default.conf.
-![02](assets/Screenshot (152).png)
+![02](assets/2.png)
 
 * #### Pada file 000-default.conf berisi konfigurasi dari apache web server.
-![03](assets/Screenshot (153).png)
+![03](assets/3.png)
 
 * #### Cek ip dari server di linux menggunakan command ifconfig.
-![04](assets/Screenshot (154).png)
+![04](assets/4.png)
 
 * #### Buka browser dan masukkan ip dari server.
-![05](assets/Screenshot (155).png)
+![05](assets/5.png)
