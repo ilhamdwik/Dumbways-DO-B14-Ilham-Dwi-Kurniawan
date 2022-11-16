@@ -31,3 +31,5 @@
 
 * #### Buka browser dan masukkan ip dari server.
 ![05](assets/5.png)
+
+Lebih lengkapnya lihat disini : https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-id
