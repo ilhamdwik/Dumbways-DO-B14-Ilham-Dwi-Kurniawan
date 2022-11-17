@@ -3,14 +3,14 @@
 
 ### 1. Perbedaan antara IP private & public
 
-* #### IP public adalah alamat IP yang digunakan dalam jaringan global Internet. Diberikan oleh penyedia layanan internet (ISP), dimana terdapat informasi sehingga dapat dilacak.
+* #### IP public adalah alamat IP yang digunakan dalam jaringan global Internet. Diberikan oleh penyedia layanan internet (ISP) seperti Telkom, My Republik dll.
 
-* #### IP private adalah alamat IP yang digunakan dalam jaringan local dan tidak bisa diakses dari jaringan internet secara langsung.
+* #### IP private adalah alamat IP yang digunakan dalam jaringan local dan tidak bisa diakses dari jaringan internet secara langsung. sudah terdapat dalam PC, laptop, dan hp.
 
 
 ### 2. Perbedaan antara IP dinamis & statis
 
-* #### IP Address Dinamis merupakan pemberian IP secara otomatis dalam sebuah jaringan baik itu bersifat IP publik atau IP private. IP ini akan berubah-ubah setiap waktu.
+* #### IP Address Dinamis merupakan pemberian IP secara otomatis dalam sebuah jaringan baik itu bersifat IP publik atau IP private. IP ini akan berubah-ubah setiap waktu. dan yang mengaturnya adalah DHCP (Dynamic Host Configuration Protocol).
 
 * #### IP Address Statis merupakan pemberian IP yang tidak akan berubah, harus di konfigurasi manual jika ingin menggunakan IP statis.
 
