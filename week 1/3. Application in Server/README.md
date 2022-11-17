@@ -112,37 +112,37 @@ Lebih lengkapnya lihat disini : https://www.webarq.com/id/blog/microservices-vs-
 
 ![11](assets/nomer 3/12.png)
 
-![12](assets/nomer 3/13.png) 
+![12](assets/nomer 3/13.png)
 
 
 ## 4. Jalankan localtunnel untuk aplikasi no 1
 
 * #### Jalankan perintah sudo apt install curl.
-![01](assets/nomer 4/1.png)
+![01](assets/nomer_4/1.png)
 
 * #### Lalu jalankan perintah seperti pada gambar di bawah ini.
-![02](assets/nomer 4/2.png)
+![02](assets/nomer_4/2.png)
 
 * #### Lalu install nvm 14.
-![03](assets/nomer 4/3.png)
+![03](assets/nomer_4/3.png)
 
 * #### Cek versi node js dan npm.
-![04](assets/nomer 4/4.png)
+![04](assets/nomer_4/4.png)
 
 * #### Lalu install localtunnel dengan perintah npm install -g localtunnel, -g artinya kita menginstall secara global dan akan bisa diakses di dalam direktori manapun di dalam laptop atau pc kita.
-![05](assets/nomer 4/5.png)
+![05](assets/nomer_4/5.png)
 
 * #### Jangan lupa untuk selalu menjalankan npm install terlebih dahulu setelah meng-clone dari github lalu npm start. Agar aplikasi kita bisa diakses secara publik melalui internet dengan menggunakan localtunnel, jalankan terlebih dahulu aplikasi kita menggunakan npm start, lalu buka terminal baru dan masukkan perintah lt --port <port_yang_berjalan_diaplikasi_tersebut>.
-![06](assets/nomer 4/6.png)
+![06](assets/nomer_4/6.png)
 
 * #### Setelah menjalankan perintah lt --port <port_yang_berjalan_diaplikasi_tersebut> maka akan muncul link untuk mengakses aplikasi tersebut lewat internet. Copy paste link tersebut ke dalam browser.
-![07](assets/nomer 4/7.png)
+![07](assets/nomer_4/7.png)
 
 * #### Lalu Click to Continue.
-![08](assets/nomer 4/8.png)
+![08](assets/nomer_4/8.png)
 
 * #### Maka aplikasi tersebut sudah bisa diakses melalui internet.
-![09](assets/nomer 4/9.png)
+![09](assets/nomer_4/9.png)
 
 
 ## Challenge
