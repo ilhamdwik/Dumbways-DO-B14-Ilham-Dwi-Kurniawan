@@ -3,9 +3,9 @@
 
 ## 1. Perbandingan antara Monolith & Microservices
 
-### Aplikasi monolitik terbentuk sebagai satu kesatuan kode yang tidak dapat dipisahkan satu dan lainnya. Salah satu karakter sistem arsitektur monolitik adalah saat pemrogram ingin melakukan perubahan pada sistem monolitik, developers harus mengubah satu kesatuan kode secara menyeluruh dan bersamaan. semisal ada fitur yang tidak berjalan, maka fitur yang lainnya juga akan berhenti berjalan.
+#### Aplikasi monolitik terbentuk sebagai satu kesatuan kode yang tidak dapat dipisahkan satu dan lainnya. Salah satu karakter sistem arsitektur monolitik adalah saat pemrogram ingin melakukan perubahan pada sistem monolitik, developers harus mengubah satu kesatuan kode secara menyeluruh dan bersamaan. semisal ada fitur yang tidak berjalan, maka fitur yang lainnya juga akan berhenti berjalan.
 
-### Jika monolitik adalah sebuah arsitektur aplikasi secara kesatuan atau tunggal, maka microservices adalah sebaliknya. Microservices terbagi menjadi beberapa unit pecahan yang lebih kecil dan spesifik. Setiap unitnya terpisah dan memiliki sistem beserta database sendiri untuk beroperasi dan menggunakan mekanisme API untuk terhubung dengan unit lainnya. bisa dibilang microservice ini setiap fitur memiliki databasenya sendiri pada setiap server, dan akan ada suatu database dan server yang lebih besar untuk menghandle semua fitur tersebut.
+#### Jika monolitik adalah sebuah arsitektur aplikasi secara kesatuan atau tunggal, maka microservices adalah sebaliknya. Microservices terbagi menjadi beberapa unit pecahan yang lebih kecil dan spesifik. Setiap unitnya terpisah dan memiliki sistem beserta database sendiri untuk beroperasi dan menggunakan mekanisme API untuk terhubung dengan unit lainnya. bisa dibilang microservice ini setiap fitur memiliki databasenya sendiri pada setiap server, dan akan ada suatu database dan server yang lebih besar untuk menghandle semua fitur tersebut.
 
 ### Monolitik :
 
