@@ -1,28 +1,31 @@
 # Task : Introduction to DevOps
 
+
 ### 1. Definisi DevOps
 
 DevOps merupakan singkatan dari dua kata yaitu Development dan Operation.
 
-Di mana kedua kata tersebut bermakna menggabungkan proses development (pengembangan) dari sebuah sistem/aplikasi dengan operation (operasional). DevOps adalah sebuah prinsip developer untuk mengkoordinasikan antar tim yaitu tim development dengan tim operations dengan efektif dan efisien.
+Di mana kedua kata tersebut bermakna menggabungkan proses development (pengembangan) dari sebuah sistem/aplikasi dengan operation (operasional). bisa dibilang juga bahwa DevOps ini adalah prinsip developer untuk mengkoordinasikan antar tim, yaitu tim development dengan tim operations dengan efektif dan efisien.
+
 
 ### 2. Sebutkan 2 lifecycle DevOps & jelaskan definisinya
 
 - Plan (tahap perencanaan) : pada tahap ini sebelum memulai membangun sebuah aplikasi kita harus melakukan perencanaan terlebih dahulu. Dikarenakan segala sesuatu yang dimulai tanpa adanya perencanaan terlebih dahulu bisa terjadi ketidaksesuain dalam membangun sebuah aplikasi. Contohnya bila tidak ada perencanaan : waktu pembangunan sebuah aplikasi tidak tepat waktu, biaya (cost) yang dikeluarkan untuk pembangunan aplikasi bisa membengkak, dll.
 
-- Code  : pada tahap ini development team akan bekerja untuk membangun sebuah aplikasi yang sudah direncanakan sebelumnya. Pada tahap ini perlu adanya kerjasama yang baik antara tim development dengan tim operation agar nantinya aplikasi yang sudah dibuat bisa berjalan dengan baik.
+- Code  : pada tahap ini development team akan bekerja untuk membuat code dan membangun sebuah aplikasi yang sudah direncanakan sebelumnya. Pada tahap ini perlu adanya kerjasama yang baik antara tim development dengan tim operation agar nantinya aplikasi yang sudah dibuat bisa berjalan dengan baik.
 
-- Build : Aplikasi yang sudah siap untuk masuk ke tahap pengujian, akan langsung di build supaya dapat mengetahui apakah kode tersebut masih terdapat error atau sudah layak masuk ke divisi tester.
+- Build : setelah tahap pembuatan code oleh tim development, maka step selanjutnya adalah mem-build code tersebut untuk mengetahui apakah code tersebut masih mengalami error setelah dibuild atau sudah bisa berjalan dengan baik.
 
-- Test : Merupakan tahap pengujian fungsional aplikasi secara internal. Jika pada proses tersebut terdapat masalah fungsionalitas, maka akan dilaporkan ke tim developer untuk dicek dan diperbaiki.
+- Test : pada tahap ini yaitu mengetest code yang sudah dibuild dari tim development. seperti pengujian fungsionalitas dari aplikasi contohnya apakah bisa login dan logout dengan baik, beserta fungsionalitas lainnya. dan bila masih terdapat error pada tahap ini, maka error yang ditemukan pada tahap ini akan dikembalikan ke tim development agar codenya diperbaiki lagi pada fungsionalitas yang bermasalah. 
 
-- Release : Setiap perubahan kode yang telah melewati serangkaian pengujian dan dinyatakan lolos, maka developers akan membuat sebuah release versi dari produk tersebut.
+- Release : pada tahap ini tim developers akan membuat suatu release aplikasi tersebut. tujuannya semisal ada perubahan-perubahan selanjutnya atau adanya update dari aplikasi ini pengguna juga bisa tahu bahwa ada perubahan atau update dari suatu aplikasi tersebut.
 
-- Deploy : pada tahap ini tim operation akan bekerja untuk mendeploy aplikasi yang sudah dibangun oleh tim development. Proses deployment juga butuh waktu untuk proses installasi dibagian server dan perlunya perhitungan spek yang dibutuhkan pada bagian server agar aplikasi tidak terbebani setelah di deploy.
+- Deploy : pada tahap ini tim operation akan bekerja untuk mendeploy aplikasi yang sudah dibangun oleh tim development. Proses deployment juga butuh waktu untuk proses installasi dibagian server dan perlunya perhitungan spek yang dibutuhkan pada bagian server agar aplikasi tidak terbebani semisal diakses oleh banyak user.
 
-- Operate : Aplikasi yang sudah selesai dijalankan pada server, maka dapat digunakan secara publik. Dan memastikan bahwa tidak ada masalah ketika di akses baik dari HP ataupun komputer.
+- Operate : pada tahap ini aplikasi kan sudah di publish ke publik dan banyak user yang menggunakan, bisa jadi user dalam mengakses aplikasi ada yang error atau tampilannya ada yang rusak saat diakses melalui hp atau yang lain sebagainya. dan pada tahap ini memastikan bahwa tidak ada masalah-masalah seperti itu.
 
-- Monitor : Tim Operations akan melakukan pemantauan infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
+- Monitor : pada tahap ini dilakukan monitoring dari tim operations untuk memonitoring aplikasi atau produk yang sudah di publish ke publik. bisa dilakukan monitoring dari segi infrastrukturnya apakah servernya ada yang down, atau dari segi sistem yang bekerja apakah terbebani dengan banyaknya user yang mengakses aplikasi tersebut dan lain sebagainya.
+
 
 ### 3. Installasi Ubuntu Server
 
