@@ -6,3 +6,4 @@
 - [02 Linux Shell & Computer Networking - Install Apache Web Server](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%201/2.%20Linux%20Shell%20%26%20Computer%20Networking)
 - [03 Application in Server - Deploy Aplikasi](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%201/3.%20Application%20in%20Server)
 - [04 Version Control Sytem](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%201/4.%20Version%20Control%20System)
+- [05 CI/CD with Cloudflare Pages](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%201/5.%20CI_CD%20with%20Cloudflare%20Pages)
