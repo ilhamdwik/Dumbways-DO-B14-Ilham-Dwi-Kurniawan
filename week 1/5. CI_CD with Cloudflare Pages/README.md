@@ -18,13 +18,13 @@
 ![01](assets/tugas2/1.png)
 
 * #### Selanjutnya klik fork yang ada di pojok kanan atas bagian github. Lalu pilih "Create a new fork".
-![02](assets/tugas2/2.png)
+![02](assets/tugas2/2.PNG)
 
 * #### Selanjutnya akan muncul halaman github seperti gambar di bawah, masukkan nama repository sesuai keinginan kalian. Lalu klik "Create fork".
-![03](assets/tugas2/3.png)
+![03](assets/tugas2/3.PNG)
 
 * #### Maka akan secara otomatis repository yang kalian fork menjadi repository milik kalian. Coba cek di repository akun github kalian.
-![04](assets/tugas2/4.png)
+![04](assets/tugas2/4.PNG)
 
 * #### Fork repository dari dumbflix-frontend telah berhasil.
 ![05](assets/tugas2/5.png)
