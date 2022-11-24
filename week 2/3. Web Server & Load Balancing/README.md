@@ -9,6 +9,7 @@
   ### - VM 1 = server
   ### - VM 2 = nginx
 
+![21](assets/21.png)
 
 
 ## 3. VM1 : jalankan aplikasi dumbflix-frontend - gunakan PM2
@@ -63,9 +64,11 @@ server {
 * #### Selanjutnya tambahkan ip dari nginx beserta domain yang sudah dibuat sebelumnya ke dalam file /etc/hosts di ubuntu. 
 ``` 
 sudo nano /etc/hosts
+```
 
 lalu tambahkan
 
+```
 (ip_dari_nginx) (domain) 
 ```
 ![08](assets/8.png)
@@ -78,7 +81,7 @@ curl ilhamdwi.xyz
 
 * #### Lalu akses di web browser.
 ``` 
-curl ilhamdwi.xyz
+ilhamdwi.xyz
 ```
 ![10](assets/10.png)
 
@@ -109,6 +112,18 @@ server {
 }
 ```
 ![13](assets/13.png)
+
+* #### Jangan lupa lakukan restart/reload pada nginx.
+``` 
+sudo systemctl restart nginx
+```
+![20](assets/20.png)
+
+* #### Cek status dari nginx. Jika status active (running) maka nginx berjalan dengan baik.
+``` 
+sudo systemctl status nginx
+```
+![20](assets/20.png)
 
 * #### Lalu coba akses aplikasi di web browser apakah berjalan lancar atau tidak.
 ![14](assets/14.png)
