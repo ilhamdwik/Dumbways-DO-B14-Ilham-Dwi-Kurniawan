@@ -13,7 +13,9 @@
 ### 3. VM1 : jalankan aplikasi dumbflix-frontend - gunakan PM2
 
 * #### Pertama jalankan aplikasi wayshub pada sisi server menggunakan pm2.
-> blockquote pm2 start npm --name "wayshub-frontend" -- start
+``` 
+pm2 start npm --name "wayshub-frontend" -- start
+```
 ![01](assets/1.png)
 
 
