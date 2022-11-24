@@ -176,13 +176,13 @@
 ### - Buat script instalasi node version manager menggunakan BASH
 
 * #### Pertama buat file bernama installasi_nvm.sh. Masukkan perintah untuk menjalankan installasi nvm di dalam file installasi_nvm.sh.
-![01](assets/challenge/installasi_nvm/1.png)
+![01](assets/challenge/installasi_nvm/5.png)
 
-* #### Cek terlebih dahulu apakah perintah kita sudah benar atau masih ada yang salah.
-![02](assets/challenge/installasi_nvm/2.png)
-
-* #### Jika dirasa perintah yang sudah kita masukkan ke dalam file installasi_nvm.sh sudah benar, maka jalankan atau eksekusi file installasi_nvm.sh. sh installasi_nvm.sh. Maka server akan menjalankan secara otomatis saat kita meng-ekseskusi file installasi_nvm.sh.
-![03](assets/challenge/installasi_nvm/3.png)
+* #### Jalankan atau eksekusi file installasi_nvm.sh. Maka server akan menjalankan secara otomatis saat kita meng-ekseskusi file installasi_nvm.sh.
+```
+sh installasi_nvm.sh
+```
+![02](assets/challenge/installasi_nvm/6.png)
 
 * #### Lalu coba cek versi node dan npm.
-![04](assets/challenge/installasi_nvm/4.png)
+![03](assets/challenge/installasi_nvm/4.png)
