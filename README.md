@@ -12,3 +12,6 @@
 - [05 CI/CD with Cloudflare Pages](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%202/1.%20CI_CD%20with%20Cloudflare%20Pages)
 - [06 Manage Server with Terminal](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%202/2.%20Manage%20Server%20with%20Terminal)
 - [07 Web Server & Load Balancing](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%202/3.%20Web%20Server%20%26%20Load%20Balancing)
+
+### 3. Week 3
+- [08 Cloud Computing & Manage Database](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%203/1.%20Cloud%20Computing%20%26%20Manage%20Database)
