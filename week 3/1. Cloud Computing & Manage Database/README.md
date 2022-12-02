@@ -187,12 +187,148 @@ SELECT * FROM Users;
 
 ### - Frontend dan Backend dapat diakses menggunakan domain nama.studentdumbways.my.id
 
+* #### Masuk ke website cloudflare pada bagian DNS->Record.
+![01](assets/nomer2/custom_domain_cloudflare/1.png)
+
+* #### Untuk membuat domain baru klik add record.
+![02](assets/nomer2/custom_domain_cloudflare/2.png)
+
+* #### Masukkan ip public dari server ilham-gateway.
+![03](assets/nomer2/custom_domain_cloudflare/8.png)
+
+* #### Masuk ke direktori nginx. Pada proxy_pass masukkan ip private dari ilham-server.
+```
+cd /etc/nginx/sites-enabled 
+
+nano ilham.studentdumbways.my.id
+```
+![04](assets/nomer2/custom_domain_cloudflare/10.png)
+
+* #### Reload nginx. dan cek apakah konfigurasi reverse proxy sudah aman atau masih ada error. Lalu cek status dari nginx.
+```
+sudo systemctl reload nginx
+
+sudo nginx-t
+
+sudo systemctl status nginx
+```
+![05](assets/nomer2/custom_domain_cloudflare/11.png)
+
+![06](assets/nomer2/custom_domain_cloudflare/12.png)
+
+![07](assets/nomer2/custom_domain_cloudflare/13.png)
+
+* #### Domain ilham.studentdumbways.my.id sudah berhasil diakses secara publik.
+
+![08](assets/nomer2/custom_domain_cloudflare/14.png)
+
 
 ## 3. Pastikan domain kalian bisa diakses menggunakan HTTPS
 
+* #### Untuk membuat ssl certification bisa menggunakan ssl certbot. Ikuti langkah-langkah berikut.
+```
+sudo snap install core
+```
+![01](assets/nomer3/1.png)
+
+![02](assets/nomer3/2.png)
+
+```
+sudo snap install --classic certbot
+```
+![03](assets/nomer3/3.png)
+
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+![04](assets/nomer3/4.png)
+
+```
+sudo certbot --nginx
+```
+![05](assets/nomer3/5.png)
+
+![06](assets/nomer3/6.png)
+
+* #### Masuk ke dalam file konfigurasi reverse proxy. Dan bisa dilihat ssl certificate sudah ditambahkan.
+
+![07](assets/nomer3/7.png)
+
+![08](assets/nomer3/8.png)
+
+* #### Coba akses domain kita.
+
+![09](assets/nomer3/9.png)
+
+![10](assets/nomer3/10.png)
+
+![11](assets/nomer3/11.png)
+
+
 ## Challenge
 ### - HTTPS menggunakan wildcard
+
+* #### Untuk konfigurasi HTTPS menggunakan wildcard kurang lebih sama dengan yang default. Tetapi ada sedikit penambahan sedikit di plugin yang digunakan dan token dari cloudflare. Untuk Konfigurasi HTTPS menggunakan wildcard ikuti langkah-langkah berikut.
+```
+sudo snap install core
+
+sudo snap install --classic certbot
+
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+sudo snap set certbot trust-plugin-with-root=ok
+
+sudo snap install certbot-dns-cloudflare
+``` 
+![01](assets/challenge/1.png)
+
+![02](assets/challenge/2.png)
+
+* #### Selanjutnya setup credential plugin. Pada case saya ini saya menggunakan plugin cloudflare. Disini saya membuat direktori .secrets/cerbot, setelah itu saya buat file cloudflare.ini untuk menyimpan email dan token api dari cloudflare.
+
+![03](assets/challenge/3.png)
+
+![04](assets/challenge/4.png)
+
+* #### Jalankan perintah berikut. example.com ganti dengan nama domain yang anda miliki.
+```
+certbot certonly \
+  --dns-cloudflare \
+  --dns-cloudflare-credentials ~/.secrets/certbot/cloudflare.ini \
+  -d example.com
+```
+![05](assets/challenge/7.png)
+
+* #### Untuk mengaktifkan ssl dari certbot ketikkan perintah berikut.
+```
+sudo certbot--nginx
+```
+![06](assets/challenge/8.png)
+
+* #### Setelah selesai coba cek konfigurasi reverse proxy kita. Maka akan secara otomatis ada penambahan ssl_certification di dalam file reverse proxy kita.
+
+![07](assets/challenge/9.png)
+
+![08](assets/challenge/10.png)
+
+* #### Cek domain.
+
+![09](assets/challenge/11.png)
+
+![10](assets/challenge/12.png)
+
+* #### Coba aplikasi apakah sudah berjalan dengan lancar antara backend dengan frontend.
+
+![11](assets/challenge/13.png)
+
+![12](assets/challenge/14.png)
+
+
 ### - Koneksi Reverse Proxy tidak menggunakan public IP
+
+![01](assets/challenge/9.png)
+
+![02](assets/challenge/10.png)
 
 ### Repository
 ### https://github.com/dumbwaysdev/dumbflix-frontend
