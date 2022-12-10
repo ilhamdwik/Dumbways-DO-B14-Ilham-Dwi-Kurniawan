@@ -91,32 +91,45 @@ docker images
 ```
 ![17](assets/Dokumentasi-Docker/7.png)
 
-* #### Step-step untuk mengaktifkan DNS SSL menggunakan certbot wildcard. Untuk step lebih lengkapnya bisa dilihat di website certbot, karena disini kita lupa untuk mencapture proses secara lengkapnya.
-![18](assets/Dokumentasi-SSL/1.png)
-![19](assets/Dokumentasi-SSL/2.png)
-![20](assets/Dokumentasi-SSL/3.png)
-![21](assets/Dokumentasi-SSL/4.png)
-
-* #### Akses aplikasi menggunakan chrome atau sejenisnya. Bisa dilihat pada aplikasi sudah secure atau sudah menggunakan https. Bisa dilihat pada pojok kiri sebelum URL aplikasi sudah terdapat gambar gembok yang artinya aplikasi sudah secure atau sudah menggunakan DNS SSL yang valid.
-![22](assets/aplikasi_bisa_diakses/1.png)
-![23](assets/aplikasi_bisa_diakses/2.png)
-![24](assets/aplikasi_bisa_diakses/3.png)
-![25](assets/aplikasi_bisa_diakses/4.png)
-![26](assets/aplikasi_bisa_diakses/5.png)
-![27](assets/aplikasi_bisa_diakses/6.png)
-
-
 ### - Push image ke hub Docker menggunakan akun masing-masing
 
-![28](assets/docker_push_docker_hub/1.png)
-![29](assets/docker_push_docker_hub/2.png)
-![30](assets/docker_push_docker_hub/3.png)
-![31](assets/docker_push_docker_hub/4.png)
+![18](assets/docker_push_docker_hub/1.png)
+![19](assets/docker_push_docker_hub/2.png)
+![20](assets/docker_push_docker_hub/3.png)
+![21](assets/docker_push_docker_hub/4.png)
 
 
 ## 3. Reverse Proxy & SSL Certificate untuk domain aplikasi
 
+* #### Step-step untuk mengaktifkan DNS SSL menggunakan certbot wildcard. Untuk step lebih lengkapnya bisa dilihat di website certbot, karena disini kita lupa untuk mencapture proses secara lengkapnya.
+
+![22](assets/Dokumentasi-SSL/1.png)
+![23](assets/Dokumentasi-SSL/2.png)
+![24](assets/Dokumentasi-SSL/3.png)
+![25](assets/Dokumentasi-SSL/4.png)
+
+* #### Akses aplikasi menggunakan chrome atau sejenisnya. Bisa dilihat pada aplikasi sudah secure atau sudah menggunakan https. Bisa dilihat pada pojok kiri sebelum URL aplikasi sudah terdapat gambar gembok yang artinya aplikasi sudah secure atau sudah menggunakan DNS SSL yang valid.
+
+![26](assets/aplikasi_bisa_diakses/1.png)
+![27](assets/aplikasi_bisa_diakses/2.png)
+![28](assets/aplikasi_bisa_diakses/3.png)
+![29](assets/aplikasi_bisa_diakses/4.png)
+![30](assets/aplikasi_bisa_diakses/5.png)
+![31](assets/aplikasi_bisa_diakses/6.png)
+
+
 ## Challenge :
+
 ### - No. 1 dibuat menjadi BASH script
+![32](assets/install_docker_bash_script/1.png)
+
 ### - Buat dockerized image sekecil mungkin (front-end)
+![33](assets/Dokumentasi-Docker/1.png)
+
 ### - NGINX dijalankan on top docker (No. 3)"
+![34](assets/challenge_nginx_on_docker/1.png)
+![35](assets/challenge_nginx_on_docker/2.png)
+![36](assets/challenge_nginx_on_docker/3.png)
+![37](assets/challenge_nginx_on_docker/4.png)
+![38](assets/challenge_nginx_on_docker/5.png)
+![39](assets/challenge_nginx_on_docker/6.png)
