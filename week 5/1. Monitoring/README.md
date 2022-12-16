@@ -82,13 +82,13 @@ touch prometheus.yml
 
 ## 3. Reverse proxy dan SSL :
 
-### - node-exporter.<nama>.studentdumbways.my.id
+### - node-exporter.ilham.studentdumbways.my.id
 ![21](assets/23.png)
 
-### - prom.<nama>.studentdumbways.my.id
+### - prom.ilham.studentdumbways.my.id
 ![22](assets/24.png)
 
-### - dashboard.<nama>.studentdumbways.my.id
+### - dashboard.ilham.studentdumbways.my.id
 ![23](assets/25.png)
 
 * #### Untuk petunjuk pembuatan SSL certificate dengan wildcard bisa di lihat di dalam folder dns_ssl_wildcard.
