@@ -11,6 +11,7 @@
 
 ## 1. [Local] buat konfigurasi Ansible & dan lakukan semua setup melalui local sebanyak mungkin
 
+![01](assets/6.png)
 
 
 ## 2. [appserver] gunakan ansible-playbook

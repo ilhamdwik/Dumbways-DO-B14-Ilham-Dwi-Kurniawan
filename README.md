@@ -20,3 +20,8 @@
 - [09 Docker](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%204/1.%20Docker)
 - [10 Docker Swarm](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%204/2.%20Microservices%20:%20Docker%20Swarm)
 - [11 CI/CD Jenkins](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%204/3.%20CI_CD%20:%20Jenkins)
+
+### 5. Week 5
+- [12 Monitoring](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%205/1.%20Monitoring)
+- [13 Ansible](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%205/2.%20Ansible)
+- [14 Kubernetes]()
