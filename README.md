@@ -24,4 +24,4 @@
 ### 5. Week 5
 - [12 Monitoring](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%205/1.%20Monitoring)
 - [13 Ansible](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%205/2.%20Ansible)
-- [14 Kubernetes]()
+- [14 Kubernetes](https://github.com/ilhamdwik/Dumbways-DO-B14-Ilham-Dwi-Kurniawan/tree/master/week%205/3.%20Kubernetes)
