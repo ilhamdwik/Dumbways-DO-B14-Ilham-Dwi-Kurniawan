@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  frontend-wayshub:
+    image: ilhaskam/wayshub-frontend:latest
+    container_name: frontend-wayshub
+    restart: unless-stopped
+    stdin_open: true
+    ports:
+      - "3000:3000"

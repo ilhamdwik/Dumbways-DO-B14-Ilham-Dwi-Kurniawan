@@ -1,0 +1,29 @@
+# public_key
+#[appserver]
+#103.191.92.128 ansible_user=ilham-appserver
+
+#[gateway]
+#103.139.193.161 ansible_user=ilham-gateway
+
+#[monitoring]
+#103.31.39.188 ansible_user=ilham-monitoring
+
+
+[appserver]
+103.191.92.128 ansible_user=ilham-appserver
+
+[gateway]
+103.139.193.161 ansible_user=ilham-gateway
+
+[monitoring]
+103.31.39.188 ansible_user=ilham-monitoring
+
+[leader]
+103.172.204.251 ansible_user=ilham-leader
+
+#[all:vars]
+#ansible_ssh_user=admin
+#ansible_ssh_password=$5$QlVlvCsU$IZT6/EX1oNw/5MwbG.qSFx9elR4KozdbCQD8KYmXMl3
+
+#[Ubuntu:vars]
+#super_group=sudo

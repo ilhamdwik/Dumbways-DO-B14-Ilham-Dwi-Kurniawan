@@ -1,0 +1,32 @@
+---
+- hosts: leader
+  become: true
+  tasks:
+
+  - name: update system
+    apt:
+      update_cache: yes
+
+  - name: install packages
+    apt:
+      name: "{{packages}}"
+      state: present
+    vars:
+      packages:
+        - ca-certificates
+        - curl
+
+  - name: Download the Google Cloud public signing key
+    apt_key:
+      url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+      state: present
+
+  - name: Add the Kubernetes apt repository
+    apt_repository:
+      repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
+      state: present
+      filename: kubernetes.list
+      update_cache: yes
+
+  - name: install kubectl
+    command: "sudo apt-get install -y kubectl"

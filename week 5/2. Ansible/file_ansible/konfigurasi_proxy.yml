@@ -1,0 +1,39 @@
+---
+- hosts: gateway
+  become: true
+  gather_facts: false
+  tasks:
+
+    #- name: create directory wayshub
+      #file:
+        #path: ~/etc/nginx/wayshub
+        #state: directory
+
+    #- name: copy wayshub.conf to nginx server gateway
+      #copy:
+        #src: rproxy/
+        #dest: ~/etc/nginx/wayshub/
+
+    - name: copy the nginx config file in sites-available
+      copy:
+        src: rproxy/{{directory}}
+        dest: /etc/nginx/sites-available/
+      become: yes
+
+    - name: mengaktifkan directive path antara /sites-available dengan /sites-enabled
+      command: "sudo ln -s /etc/nginx/sites-available/{{directory}} /etc/nginx/sites-enabled/{{directory}}"
+    #- name: create symlink
+      #file:
+        #src: /etc/nginx/sites-available/
+        #dest: /etc/nginx/sites-enabled/
+        #state: link
+      #become: yes
+
+  handlers:
+    - name: restart nginx
+      service:
+        name: nginx
+        state: restarted
+
+  vars:
+    directory: "wayshub.conf"

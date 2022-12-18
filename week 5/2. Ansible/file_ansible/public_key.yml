@@ -1,0 +1,19 @@
+---
+- hosts: monitoring
+  tasks:
+  - name: "make directory"
+    file:
+      path: "/home/{{username}}/.ssh"
+      state: directory
+  - name: "create empty file"
+    file:
+      path: "/home/{{username}}/.ssh/authorized_keys"
+      state: touch
+  - name: "put pubkey"
+    lineinfile:
+      path: "/home/{{username}}/.ssh/authorized_keys"
+      line: "{{ public_key }}"
+  vars:
+    - username: "ilham-monitoring"
+
+# ansible-playbook -i ./Inventory public_key.yml --ask-pass --extra-vars='public_key="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4GvmgkrpxWW0IEUyGNZUOYztGW1ukinSXMvWg6vCV/6oauFQNBRwERAPrV64D6twaAsNcfTGFbOwNrr3EsUQkeKNnLC3nx3G6QeDyDHc58C5M28rxEjBAZT3Rh1jvW8JrayvU932gDTejzQAJwp2IqTdhFlkQTPv8L/t9nFX+q7qJdOCaMgLaAHQVyMTFzRZv851yflmSSvYaCquWnanhOvbh3VcDMm86thoGz/YUK4CKLnn/hbhZ7BWM7m0XfNPC/ntCW6HxNOGzliHWlw44DlcR7pDz5EIvOZfU3MCZQa9tgkU49yz2i7ax/7gndaqLpsFHvolgNsTq38jTnzvz ilhaskam@ilhaskam-X455LDB"'

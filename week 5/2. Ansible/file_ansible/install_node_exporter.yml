@@ -1,0 +1,17 @@
+---
+- hosts: appserver
+  tasks:
+
+  - name: remove container node-exporter
+    command: "docker stop node-exporter"
+
+  - name: Pull an image
+    community.docker.docker_container:
+      name: node-exporter
+      image: bitnami/node-exporter
+      state: present
+      ports:
+        - "9100:9100"
+
+  - name: docker start node-exporter
+    command: "docker start node-exporter"

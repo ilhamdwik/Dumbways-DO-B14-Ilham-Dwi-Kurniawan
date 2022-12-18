@@ -1,0 +1,12 @@
+---
+- hosts: appserver
+  gather_facts: false
+  tasks:
+
+  - name: copy docker compose in local
+    copy:
+      src: docker_compose_wayshub/
+      dest: ~/
+
+  - name: docker compose up
+    command: "docker compose up -d"
