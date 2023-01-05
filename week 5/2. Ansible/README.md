@@ -158,10 +158,10 @@ ansible-playbook nama_file
 
 ![36](assets/monitoring/3.png)
 
-### - monitor network untuk appserver
+### - monitor untuk appserver
 ![37](assets/monitoring/4.png)
 
-### - monitor network untuk gateway
+### - monitor untuk gateway
 ![38](assets/monitoring/5.png)
 
 
