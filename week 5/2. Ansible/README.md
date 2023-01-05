@@ -151,23 +151,18 @@ ansible-playbook nama_file
 
 ### - monitor CPU & RAM untuk appserver
 
-* #### Untuk menambahkan dashboard, klik dashboard lalu klik new.
+* #### Tambahkan IP target yang ingin di monitoring.
+![34](assets/monitoring/1.png)
 
-* #### Ini adalah rumus perhitungan untuk CPU Usage.
-![34](assets/18.png)
+![35](assets/monitoring/2.png)
 
-* #### Sedangkan ini untuk perhitungan RAM Memory available dan total keseluruhan memory.
-![35](assets/19.png)
+![36](assets/monitoring/3.png)
 
+### - monitor network untuk appserver
+![37](assets/monitoring/4.png)
 
 ### - monitor network untuk gateway
-
-* #### Ini untuk melihat network receive (menerima) dan network transmit (pengiriman) data.
-![36](assets/20.png)
-
-* #### Ini adalah tampilan dashboard yang sudah dibuat.
-![37](assets/21.png)
-![38](assets/22.png)
+![38](assets/monitoring/5.png)
 
 
 ## Challenge
